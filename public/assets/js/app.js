@@ -1,6 +1,5 @@
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
-
 const messageOne = document.querySelector('#messageOne')
 const messageTwo = document.querySelector('#messageTwo')
 
@@ -19,5 +18,4 @@ weatherForm.addEventListener('submit', (e) => {
             }
         })
     })
-    console.log(location)
 })
