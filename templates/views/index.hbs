@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/weather.png">
+    <title>Home</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use this app to get your weather forecast.</p>
+        <form action="">
+            <input type="text" placeholder="Enter location" name="address">
+            <button>Search</button>
+        </form>
+
+        <p id="messageOne"></p>
+        <p id="messageTwo"></p>
+
+    </div>
+
+    {{>footer}}
+<script src="/assets/js/app.js"></script>
+</body>
+</html>
